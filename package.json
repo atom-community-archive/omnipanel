@@ -1,0 +1,16 @@
+{
+  "name": "omnipanel",
+  "main": "./lib/omnipanel",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "omnipanel:toggle"
+  },
+  "repository": "https://github.com/atom/omnipanel",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

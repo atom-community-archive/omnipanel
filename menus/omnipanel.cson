@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle omnipanel'
+      'command': 'omnipanel:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'omnipanel'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'omnipanel:toggle'
+        }
+      ]
+    ]
+  }
+]
