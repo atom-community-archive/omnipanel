@@ -6,7 +6,7 @@
   "activationCommands": {
     "atom-workspace": "omnipanel:toggle"
   },
-  "repository": "https://github.com/atom/omnipanel",
+  "repository": "https://github.com/atom-community/omnipanel",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
